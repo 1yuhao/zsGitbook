@@ -1,0 +1,66 @@
+{
+    "title": "知守实验室",
+    "description": "pentest文章",
+    "author": "yuhao",
+    "language": "zh-hans",
+    "root": ".",
+
+    "links" : {
+    "sidebar" : {
+        "友链" : "https://www.baidu.com"
+        }   
+    },
+
+    "plugins": [
+        "-lunr", 
+        "-search",
+        "redirect",
+        "-sharing",
+        "fontsettings",
+        "-livereload",
+        "search-pro",
+        "code",
+        "back-to-top-button",
+        "auto-scroll-table",
+        "expandable-chapters",
+        "lightbox",
+        "flexible-alerts",
+        "splitter",
+        "advanced-emoji",
+        "chapter-fold",
+        "expandable-chapters-small",
+        "expandable-chapters",
+        "copy-code-button",
+        "github",
+        "tbfed-pagefooter",
+        "page-toc-button",
+        "pageview-count",
+        "lightbox"
+    ],
+    "pluginsConfig": {
+
+    "fontsettings": {
+        "theme": "white",
+        "family": "sans",
+        "size":  2
+    },
+
+    "github": {
+            "url": "https://github.com/1yuhao"
+    },
+
+    "code": {
+       "copyButtons": false
+    },
+
+    "page-toc-button": {
+            "maxTocDepth": 2,
+            "minTocSize": 2
+    },
+
+    "tbfed-pagefooter": {
+            "copyright":"Copyright © 2020 YUHAO ",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+    }
+}}
